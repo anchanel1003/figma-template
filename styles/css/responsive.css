@@ -639,13 +639,13 @@
     }
 
     .product1 p, .product2 p, .product3 p {
-        font-size: 14px;
+        font-size: 12px;
         line-height: 24px;
         padding-left: 6px;
     }
 
     .product1 , .product2 , .product3 {
-        padding: 8px 11px;
+        padding: 8px;
         margin: 0;
     }
 
@@ -683,7 +683,7 @@
 
     .content4-tablet{
         font-weight: 400;
-        font-size: 16px;
+        font-size: 15px;
         line-height: 24px;
         margin-top: 40px; 
         text-align: center;
@@ -695,7 +695,8 @@
     }
 
     .content4-title1, .content4-title2, .content4-title3{
-        padding: 11px 6px;
+        padding: 11px 4px;
+        font-size: 12px;
     }
     
     .content4-title3{
@@ -716,7 +717,7 @@
     }
 
     .content-detail-face p{
-        font-size: 15px;
+        font-size: 13px;
     }
 
     .content4-face, .content4-face2{
@@ -1345,7 +1346,7 @@
     }
     
     .types-of-glass{
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
 
