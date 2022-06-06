@@ -221,6 +221,10 @@
         display: none;
     }
 
+    .change-right{
+        margin: 0;
+    }
+
     .change-size-menu1{
         margin: 0;
     }
@@ -879,6 +883,11 @@
         height: 8px;
     }
 
+    .hinh-tron{
+        width: 13px;
+        height: 13px;
+    }
+
     .content-menu{
         flex-direction: column;
     }
@@ -914,7 +923,7 @@
     .title-descreption p:first-child{
         color: #81C8C2;
         font-weight: 400;
-        font-size: 12px;
+        font-size: 9px;
         margin-bottom: 0;
     }
 
@@ -1273,16 +1282,16 @@
     }
 
     .name-glass p {
-        font-size: 16px;
+        font-size: 13px;
         color: #000
     }
 
     .price-glass p:first-child {
-        font-size: 16px;
+        font-size: 13px;
     }
 
     .price-glass p:last-child{
-        font-size: 16px;
+        font-size: 11px;
         color: rgba(0, 0, 0, 0.35);
     }
 
@@ -1297,7 +1306,11 @@
     }
 
     .discount-item{
-        padding: 2px 6px;
+        top: 10px;
+        right: 4px;
+        font-size: 10px;
+        line-height: unset;
+        padding: 2px 4px;
     }
     
     .content2-btn button{
@@ -1314,21 +1327,25 @@
     }
 
     .change-price p:first-child{
-        font-size: 12px;
+        font-size: 10px;
         padding: 0;
     }
 
     .change-price p:last-child{
-        font-size: 12px;
+        font-size: 9px;
     }
 
     .change-item3{
-        margin: 0 16px;
+        margin: 0 13px;
     }
 
     .change-content3{
         width: 100%;
         overflow: hidden;
+    }
+    
+    .types-of-glass{
+        justify-content: space-between;
     }
 
 
